@@ -6,7 +6,7 @@ class Frogger:
     def __init__( self, width, height ):
         self.mWidth = width
         self.mHeight = height
-        self._lane_size= 50
+        self._lane_size= 60 #changed size to 60
         self._game_over = False
 
         self.mDSUTan = ( 229, 217, 189 )
